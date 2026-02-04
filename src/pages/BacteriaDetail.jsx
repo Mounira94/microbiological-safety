@@ -100,7 +100,7 @@ function BacteriaDetail() {
           <div className="not-found">
             <h1>Bacterium Not Found</h1>
             <p>The bacterium you're looking for doesn't exist in our database.</p>
-            <Link to="/services" className="back-button">Back to Bacteria Types</Link>
+            <Link to="/microbiological-safety/services" className="back-button">Back to Bacteria Types</Link>
           </div>
         </div>
       </div>

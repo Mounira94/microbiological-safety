@@ -115,7 +115,7 @@ function CategoryBacteria() {
           <div className="not-found">
             <h1>Category Not Found</h1>
             <p>The category you're looking for doesn't exist.</p>
-            <Link to="/" className="back-button">Back to Home</Link>
+            <Link to="/microbiological-safety/" className="back-button">Back to Home</Link>
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@ function CategoryBacteria() {
             {category.bacteria.map((bacterium, index) => (
               <Link 
                 key={index} 
-                to={`/bacteria/${titleToSlug(bacterium.name)}`} 
+                to={`/microbiological-safety/bacteria/${titleToSlug(bacterium.name)}`} 
                 className="bacteria-card-link"
               >
                 <div className="bacteria-card">

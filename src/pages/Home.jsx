@@ -11,7 +11,7 @@ function Home() {
           <p className="hero-subtitle">
             Découvrez les principales bactéries pathogènes et les bactéries indicatrices d’hygiène.
           </p>
-          <Link to="/services" className="cta-button">
+          <Link to="/microbiological-safety/services" className="cta-button">
             Découvrir les types de bactéries
           </Link>
         </div>
@@ -72,7 +72,7 @@ function Home() {
         <div className="container">
           <h2>Prêt à explorer les bactéries pathogènes ?</h2>
           <p>Découvrez les informations détaillées sur les principales bactéries pathogènes et les maladies qu'elles causent</p>
-          <Link to="/services" className="cta-button-secondary">
+          <Link to="/microbiological-safety/services" className="cta-button-secondary">
             Voir les types de bactéries
           </Link>
         </div>

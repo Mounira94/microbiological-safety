@@ -49,7 +49,7 @@ function Services() {
             {services.map((service, index) => (
               <Link 
                 key={index} 
-                to={`/category/${titleToSlug(service.title)}`} 
+                to={`/microbiological-safety/category/${titleToSlug(service.title)}`} 
                 className="service-card-link"
               >
                 <div className="service-card">

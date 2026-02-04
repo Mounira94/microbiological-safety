@@ -5,16 +5,16 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/" className="nav-logo">
+        <Link to="/microbiological-safety/" className="nav-logo">
           <span className="logo-icon"><img src="https://img.icons8.com/?size=100&id=wZUoRkt8QQcW&format=png&color=000000" alt="Logo de la bactérie pathogène" /></span>
           <span>Guide des bactéries pathogènes</span>
         </Link>
         <ul className="nav-menu">
           <li className="nav-item">
-            <Link to="/" className="nav-link">Accueil</Link>
+            <Link to="/microbiological-safety/" className="nav-link">Accueil</Link>
           </li>
           <li className="nav-item">
-            <Link to="/services" className="nav-link">Types de bactéries</Link>
+            <Link to="/microbiological-safety/services" className="nav-link">Types de bactéries</Link>
           </li>
         </ul>
       </div>
