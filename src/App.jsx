@@ -12,10 +12,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/category/:categoryName" element={<CategoryBacteria />} />
-          <Route path="/bacteria/:bacteriaName" element={<BacteriaDetail />} />
+          <Route path="/microbiological-safety/" element={<Home />} />
+          <Route path="/microbiological-safety/services" element={<Services />} />
+          <Route path="/microbiological-safety/category/:categoryName" element={<CategoryBacteria />} />
+          <Route path="/microbiological-safety/bacteria/:bacteriaName" element={<BacteriaDetail />} />
         </Routes>
       </div>
     </Router>
