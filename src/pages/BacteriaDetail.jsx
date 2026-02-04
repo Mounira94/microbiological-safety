@@ -49,7 +49,7 @@ function BacteriaDetail() {
       name: 'Campylobacter jejuni / coli,Vibrio spp. (produits de la mer)',
       icon: 'https://img.icons8.com/?size=100&id=RoZIT1ZUKN0D&format=png&color=000000',
       type: 'Bactéries pathogènes majeures',
-      image: './Capture.jpg',
+      image: 'https://imgur.com/a/LLeOyeP',
       imageCaption: 'Aspect au Gram de Campylobacter jejuni.</br>Gram réalisé à partir d’une subculture d’une souche deC. jejuni sur gélose Campylosel®. Photo prise à l’objectif X100 à immersion. Photo du CNR des Campylobacter et des Helicobacter',
       identityCard: 'Famille des Campylobacteraceae qui contient les genres Campylobacter et Helicobacter</br>Principales espèces du genre Campylobacter retrouvées en clinique : C. jejuni, C. coli et C. fetus.</br>Campylobacter = bactéries responsables de zoonoses, dont le principal réservoir est le tube digestif des oiseaux (volaille)</br>D’autres animaux peuvent contribuer à leur diffusion, ex : porc, bovins, animaux de compagnie.',
       transmission: '- Indirecte par ingestion d’aliments ou d’eau contaminés :</br>- viande de volaille soit consommée notamment crue ou peu cuite, soit par contamination croisée ;</br>- ou carcasses souillées au niveau de la peau en contact d’autres aliments consommés crus.</br>- Directe via des animaux contaminés : contact avec des animaux de compagnie, ou via un environnement contaminé par des</br>déjections d’oiseaux ou d’animaux. La transmission interhumaine, plus rare, est possible et peut concerner les collectivités ou des</br>environnements ou populations à conditions d’hygiène précaires',
@@ -116,6 +116,10 @@ function BacteriaDetail() {
             <div className="bacteria-icon-large"><img src={bacteria.icon} alt={bacteria.name}/></div>
             <h1>{bacteria.name}</h1>
             <div className="bacteria-type-badge">{bacteria.type}</div>
+            <div className="back-button-container" style={{marginTop:"15px"}}>
+            <div onClick={() => window.history.back()} className="back-button">Back to Bacteria Types</div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -125,12 +129,12 @@ function BacteriaDetail() {
         <div className="container">
           <div className="details-grid">
           {/* Image Section */}
-            {bacteria.image &&  <div>
-                <figure>
-                  <img src={bacteria.image} alt={bacteria.name}  />
-                  <figcaption>{bacteria.imageCaption}</figcaption>
-                </figure>
-            </div>}
+            {bacteria.image && (
+              <div style={{textAlign:"center"}}>
+                <img src="https://i.imgur.com/NK8DaVg.jpeg" alt={bacteria.name} />
+                <figcaption dangerouslySetInnerHTML={{ __html: bacteria.imageCaption }} />
+              </div>
+            )}
             <div className="detail-card">
               <div className="detail-icon">🧪</div>
               <h3>Carte d'identité</h3>
