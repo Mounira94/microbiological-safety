@@ -35,7 +35,7 @@ function CategoryBacteria() {
       ]
     },
     'bacteries-toxigenes-sporulees': {
-      title: 'bactéries-toxigènes-sporulées Bacteria',
+      title: 'Bactéries toxigènes sporulées',
       description: 'Staphylococcus aureus, Bacillus cereus, Clostridium perfringens, Clostridium botulinum (cas spécifiques : conserves, produits anaérobies)',
       icon: 'https://img.icons8.com/?size=100&id=ymkjvusZEovn&format=png&color=000000',
       bacteria: [
