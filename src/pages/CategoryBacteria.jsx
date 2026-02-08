@@ -86,7 +86,7 @@ function CategoryBacteria() {
     },
     'autres-germes-utiles-selon-le-produit': {
       title: 'Autres germes utiles selon le produit',
-      description: 'Pseudomonas spp. (altération), levures et moisissures, Lactobacillus / flore lactique (fermentés), Résumé rapide (format laboratoire), Groupe, Micro-organisme, Pathogènes, Salmonella, Listeria, E. coli STEC, Campylobacter, Toxigènes, Staph. aureus, B. cereus, C. perfringens, Indicateurs, E. coli β⁺, E. coli, Coliformes, Entérobactéries, Qualité, FAMT, Altération, Pseudomonas, levures, moisissures',
+      description: 'Pseudomonas spp. (altération), levures et moisissures, Lactobacillus / flore lactique (fermentés)',
       icon: 'https://img.icons8.com/?size=100&id=zCjCJjruE2vG&format=png&color=000000',
       bacteria: [
         {
@@ -94,7 +94,7 @@ function CategoryBacteria() {
           icon: 'https://img.icons8.com/?size=100&id=jMymggP7dFfN&format=png&color=000000'
         },
         {
-          name: 'levures et moisissures',
+          name: 'Levures et moisissures',
           icon: 'https://img.icons8.com/?size=100&id=rhORcdIWdqUU&format=png&color=000000'
         },
         {
